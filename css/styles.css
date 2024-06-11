@@ -725,6 +725,44 @@ a.butn:focus {
   color: #7cbf46
 }
 
+
+
+
+
+
+
+.list-style-purple li:last-child {
+  margin-bottom: 0
+}
+
+.list-style-purple li a:hover,
+.list-style-purple li a:active,
+.list-style-purple li a:focus {
+  color: #ff457e
+}
+
+.list-style-purple li:before {
+  content: "\f138";
+  font-family: Font Awesome\ 5 Free;
+  font-weight: 700;
+  font-size: 13px;
+  position: absolute;
+  top: -3px;
+  left: 0;
+  line-height: 35px;
+  color: #ff457e
+}
+
+.list-style-purple.purple li a:hover,
+.list-style-purple.purple li a:active,
+.list-style-purple.purple li a:focus {
+  color: #b10ee2
+}
+
+.list-style-purple li:before {
+  color: #b10ee2
+}
+
 header {
   box-shadow: none
 }
