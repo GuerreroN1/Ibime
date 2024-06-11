@@ -586,7 +586,7 @@ a.butn:focus {
   position: absolute;
   top: 0;
   left: 0;
-  color: #e3558e
+  color: #5d58f7
 }
 
 .list-styleValores li:last-child {
@@ -597,6 +597,44 @@ a.butn:focus {
   background: #fff;
   color: #e3558e
 }
+
+
+
+
+
+.list-styleSCliente {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.list-styleSCliente li {
+  position: relative;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px 0
+}
+
+.list-styleSCliente li:before {
+  content: "\f058";
+  font-family: Font Awesome\ 5 Free;
+  font-weight: 700;
+  font-size: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fb5933
+}
+
+.list-styleSCliente li:last-child {
+  margin-bottom: 0
+}
+
+.list-styleSCliente li a:hover {
+  background: #fff;
+  color: #e3558e
+}
+
+
 
 .list-style7 {
   margin-bottom: 0
